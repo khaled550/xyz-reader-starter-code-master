@@ -1,21 +1,4 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
-    }
-}
 apply plugin: 'com.android.application'
-
-repositories {
-    mavenCentral()
-    google()
-    maven {
-        url 'https://maven.google.com/'
-        name 'Google'
-    }
-}
 
 android {
     compileSdkVersion 26
@@ -25,6 +8,10 @@ android {
         minSdkVersion 19
         targetSdkVersion 26
     }
+}
+
+repositories {
+    google()
 }
 
 dependencies {
