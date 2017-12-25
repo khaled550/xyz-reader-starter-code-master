@@ -11,7 +11,7 @@
         android:id="@+id/myAppbar"
         android:layout_width="match_parent"
         android:layout_height="320dp"
-        android:elevation="6dp"
+        android:elevation="4dp"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
